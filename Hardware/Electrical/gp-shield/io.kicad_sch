@@ -1,0 +1,16 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 07ac5ba5-4586-4841-ba48-454d147f44db)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Ideas for IO in addition to that shown on MCU sheet:\n- Servo style PWM headers for each of output compare pins\n- optional SPI header (4-pin?)\n\nSee the standard connection header for the Arduino for ideas"
+    (at 93.98 118.11 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 476a8387-bea1-4734-8299-023ddf679e65)
+  )
+)
