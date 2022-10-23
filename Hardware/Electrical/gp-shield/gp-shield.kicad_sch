@@ -672,67 +672,67 @@
       (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/f5e150a2-c53b-4754-91e7-e45891fa271e"
-      (reference "F2") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F2") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/5eb1a092-36d1-4452-adbb-d41e04ec9b32"
-      (reference "F3") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F3") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/0ae4371d-56a2-4be4-8cee-da30bfc820b0"
-      (reference "F4") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F4") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/e1085cd3-2ef0-4efd-aec9-89251ddc8e88"
-      (reference "F5") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F5") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/e0f13479-5f0d-4139-8ebd-995bd7908b94"
-      (reference "F6") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F6") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/5437d123-e40a-4666-bb9d-97a755b63818"
-      (reference "F7") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F7") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/8704be2c-2a70-4d19-a2e9-9ffdbf58de6a"
-      (reference "F8") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F8") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/195ef469-2bf2-461a-bd3a-d40e684fc5db"
-      (reference "F9") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F9") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/8ee3a8cb-1d21-4db9-8f52-c4075960c058"
-      (reference "F10") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F10") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/375194ee-e391-4a09-bd18-624bbe276157"
-      (reference "F11") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F11") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/8f97f969-c0aa-49c0-904b-47ce9dd63721"
-      (reference "F12") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F12") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/38e0b61f-be0b-440e-8c12-a47ff5f20268"
-      (reference "F13") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F13") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/d33b44d8-0705-4f5d-a348-d493dee4b9e9"
-      (reference "F14") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F14") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/e834dab0-2785-46bb-ada2-679e53290768"
-      (reference "F15") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F15") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/498cdd1d-a78a-44c1-b3f3-22f00c71697e"
-      (reference "F16") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F16") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/3cc7e2ed-d010-41db-8dc6-b0d94491275d"
-      (reference "F17") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F17") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/ff68b49f-4151-4ff7-9542-77a0e86cbbf8"
-      (reference "F18") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F18") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/4f6b4ac8-fa37-47ea-9ced-680ceedf1f99"
-      (reference "F19") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F19") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/7af9c547-afe0-4509-af42-564098174a52"
-      (reference "F20") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F20") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/364cb2ef-b31b-4d98-9681-f057a1b7fdf8"
-      (reference "F21") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F21") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/2f69b27a-96cb-4571-8aa9-f82b3e0ad11c"
-      (reference "F22") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "F22") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/4b03be13-0852-4c92-907e-559155401823"
       (reference "J1") (unit 1) (value "XT60/TERM2") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
