@@ -3,10 +3,12 @@
 ## Overview
 The shield is intended to be used as a general purpose shield for Arduino Uno compatible microcontroller development boards or as an interface between a development board and other custom electronics.
 
-From prevuious projects we had identified multiple common issues when interfacing with common microcontroller development boards including the Arduino UNO and Xplained Mini series of development boards.
+From previous projects we have identified multiple common issues when interfacing with common microcontroller development boards including the Arduino UNO and Xplained Mini series of development boards.
 1. Many development boards are sensitive to fluctuations in the power supply during programming and can become 'bricked'.
 1. A lack of protection on the Vin and 5V lines when being powered from a shield or other electronics makes them susceptible to damage.
 1. Due to the lacj of protection on GPIO pins and the lareg number of exposed GPIO pins it is easy to draw too much current or apply an overvoltage condition which will damage the microcontroller.
+
+See https://www.rugged-circuits.com/10-ways-to-destroy-an-arduino for more issues with the Arduino UNO.
 
 To resolve these issue for most use cases and provide general functionality commonly needed in electronics projects we have developed the gp-shield to be used as the standard method of interfacing with Arduino UNO compatible development boards.
 
