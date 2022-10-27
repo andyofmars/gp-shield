@@ -35,7 +35,7 @@
 
   (sheet (at 137.16 93.98) (size 55.88 35.56) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 204 102 0 0.5000))
     (uuid 04ed0af3-f777-44ba-9dbd-897161fc6c6a)
     (property "Sheet name" "IO" (id 0) (at 137.16 93.2684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -71,7 +71,7 @@
 
   (sheet (at 69.85 95.25) (size 43.18 35.56) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 0 132 0 0.5000))
     (uuid 0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec)
     (property "Sheet name" "MCU" (id 0) (at 69.85 94.5384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -107,7 +107,7 @@
 
   (sheet (at 63.5 44.45) (size 55.88 27.94) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 132 0 0 0.5000))
     (uuid 74fdf5c2-3151-4dc3-ad40-7d970216f0b1)
     (property "Sheet name" "Power" (id 0) (at 63.5 43.7384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -897,7 +897,7 @@
       (reference "R23") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/a8ed4727-5984-4349-8f60-1406dd1e15f1"
-      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled")
+      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Utility:OS102011MA1_SPDT_ESwitch")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/5d544845-cc91-44f4-8ed3-9651fa734c90"
       (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx")

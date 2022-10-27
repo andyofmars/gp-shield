@@ -916,7 +916,6 @@
   )
 
   (bus_alias "PWM" (members "A[0..1]" "B[0..1]" "C[0..1]"))
-
   (junction (at 180.34 101.6) (diameter 0) (color 0 0 0 0)
     (uuid 094e6201-2f9f-4357-a121-3bce2a81f9bf)
   )
