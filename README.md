@@ -20,3 +20,5 @@ Features of the gp-shield are:
 - Standard connectors for analogue outputs, PORTD and PORTB GPIO pins, 6 PWM outputs, UART, SPI and a high current output for powereing other electronics from the same supply with all of the built in seafty features.
 - On-board reset switch
 - On-board general purpose LED and push button
+
+The board itself is 2-layers with double-sided component assembly. All components are larger than 0805 to ensure it is hand-solderable. It is intended to be assembled in-house with pick-and-place machine and reflow soldering.
