@@ -1,5 +1,7 @@
 # gp-shield - A general purpose arduino-compatible shield for UTAS projects
 
+![gp-shield PCB render](Doc/PCB.png)
+
 ## Overview
 The shield is intended to be used as a general purpose shield for Arduino Uno compatible microcontroller development boards or as an interface between a development board and other custom electronics.
 
@@ -8,7 +10,7 @@ From previous projects we have identified multiple common issues when interfacin
 1. A lack of protection on the Vin and 5V lines when being powered from a shield or other electronics makes them susceptible to damage.
 1. Due to the lacj of protection on GPIO pins and the lareg number of exposed GPIO pins it is easy to draw too much current or apply an overvoltage condition which will damage the microcontroller.
 
-See https://www.rugged-circuits.com/10-ways-to-destroy-an-arduino for more issues with the Arduino UNO.
+See [Rugged Circuits](https://www.rugged-circuits.com/10-ways-to-destroy-an-arduino) for more issues with the Arduino UNO.
 
 To resolve these issue for most use cases and provide general functionality commonly needed in electronics projects we have developed the gp-shield to be used as the standard method of interfacing with Arduino UNO compatible development boards.
 
