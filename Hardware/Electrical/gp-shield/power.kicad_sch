@@ -2736,7 +2736,7 @@
     (property "Value" "100uF" (id 1) (at 215.9 44.8309 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_8x5.4" (id 2) (at 213.0552 48.26 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" (id 2) (at 213.0552 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 212.09 44.45 0)

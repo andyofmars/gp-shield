@@ -543,7 +543,7 @@
       (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/e9cdcaad-8520-406c-9a29-a2e127340667"
-      (reference "C5") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_8x5.4")
+      (reference "C5") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/590ee3df-e268-4caa-a495-abd92abfd956"
       (reference "C6") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
