@@ -463,8 +463,6 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "nets": [
-          "+3V3",
-          "+3V3_ADC_OUT",
           "+3V3_ARDUINO",
           "+5V",
           "+5V_ADC_OUT",
