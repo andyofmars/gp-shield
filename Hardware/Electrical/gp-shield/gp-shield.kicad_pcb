@@ -894,6 +894,11 @@
       (net 68 "/Power/VCC_EN") (pinfunction "B") (pintype "passive") (tstamp a1cfec49-3932-438a-875c-8c07b2d1d68a))
     (pad "3" thru_hole circle (at 4 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 67 "/Power/VCC_CMP_OUT") (pinfunction "C") (pintype "passive") (tstamp 9cf71884-b3fb-400f-9094-ef49fa9f83e0))
+    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_E-Switch_EG1224_SPDT_Angled.wrl" hide
+      (offset (xyz -0.5 0.5 0))
+      (scale (xyz 0.7 0.7 0.7))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "kibuzzard-63524FC9" (layer "F.Cu")
@@ -1151,6 +1156,11 @@
     (pad "2" thru_hole circle (at 6.5 4.5 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 "GND") (pinfunction "2") (pintype "passive") (tstamp da2334ce-3749-48ae-b1ab-4ec32c4bf5d1))
     (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_TH_Tactile_Omron_B3F-10xx.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3662,7 +3672,7 @@
     (fp_line (start 7.62 3.81) (end 7.62 -3.81) (layer "F.SilkS") (width 0.12) (tstamp c0073edf-be70-4f0d-a673-2a5c2e0c51c1))
     (fp_line (start 7.62 2.54) (end -2.54 2.54) (layer "F.SilkS") (width 0.12) (tstamp c67fc0ad-99fd-42d4-bb2a-83c7bc6c8bf2))
     (fp_line (start -5.21 0) (end -5.21 6.15) (layer "F.SilkS") (width 0.12) (tstamp ce911cb2-7869-4bcc-835c-957ee7d2bc26))
-    (fp_arc (start 7.75 -3.35) (mid 9.583207 -2.102027) (end 10.29 0) (layer "F.SilkS") (width 0.12) (tstamp 2a7d73d2-4e12-4196-9222-c1e093d4654d))
+    (fp_arc (start 7.75 -3.35) (mid 9.583204 -2.102027) (end 10.29 0) (layer "F.SilkS") (width 0.12) (tstamp 2a7d73d2-4e12-4196-9222-c1e093d4654d))
     (fp_arc (start -5.21 0) (mid -4.503207 -2.102029) (end -2.67 -3.35) (layer "F.SilkS") (width 0.12) (tstamp 6a1fbc49-05b4-48c5-a107-d273bb837194))
     (fp_line (start 7.79 4) (end -2.71 4) (layer "F.CrtYd") (width 0.05) (tstamp 1fd9c59f-a686-45cb-ae0a-188b357b10b8))
     (fp_line (start 10.417 6.277) (end 10.417 -0.073) (layer "F.CrtYd") (width 0.05) (tstamp 5009c221-515c-4335-bbcc-8ed6e53fd6ad))
@@ -3672,7 +3682,7 @@
     (fp_line (start 7.79 4) (end 7.79 -4) (layer "F.CrtYd") (width 0.05) (tstamp 87bba2d0-0bae-4238-a745-a0b7172f0935))
     (fp_line (start 10.417 6.277) (end -5.331 6.277) (layer "F.CrtYd") (width 0.05) (tstamp 9dbd45b0-1ce5-46d1-952a-ec1221e24e73))
     (fp_line (start -2.71 -4) (end -2.71 4) (layer "F.CrtYd") (width 0.05) (tstamp f79e9f68-ab80-420b-b01c-fb8363d6d6c5))
-    (fp_arc (start 7.75 -3.502) (mid 9.671432 -2.24478) (end 10.417 -0.073) (layer "F.CrtYd") (width 0.05) (tstamp 349030af-a81d-4b86-b150-f86fc83d3d60))
+    (fp_arc (start 7.75 -3.502) (mid 9.671433 -2.244782) (end 10.417 -0.073) (layer "F.CrtYd") (width 0.05) (tstamp 349030af-a81d-4b86-b150-f86fc83d3d60))
     (fp_arc (start -5.331 -0.073) (mid -4.585428 -2.244777) (end -2.664 -3.502) (layer "F.CrtYd") (width 0.05) (tstamp 75c67cb6-9f29-49d2-be7a-1fd32ea7b227))
     (fp_line (start -2.41 2.55) (end 7.49 2.55) (layer "F.Fab") (width 0.1) (tstamp 1f74293d-79b7-40e2-8231-702fe5833fdb))
     (fp_line (start 7.54 -3.75) (end -2.46 -3.75) (layer "F.Fab") (width 0.1) (tstamp 2a3bb2e7-9046-4522-89fe-6b6f105a5003))
@@ -6802,7 +6812,7 @@
     (fp_line (start 7.62 2.54) (end -2.54 2.54) (layer "F.SilkS") (width 0.12) (tstamp e29af290-d9b3-4b1d-99aa-ee59bacd072e))
     (fp_line (start 10.29 6.15) (end -5.21 6.15) (layer "F.SilkS") (width 0.12) (tstamp ec5efb95-f628-4f98-9544-ffe5eaf810ab))
     (fp_arc (start -5.21 0) (mid -4.503207 -2.102029) (end -2.67 -3.35) (layer "F.SilkS") (width 0.12) (tstamp 21cf66ee-8668-45d0-bb54-761139654f91))
-    (fp_arc (start 7.75 -3.35) (mid 9.583207 -2.102027) (end 10.29 0) (layer "F.SilkS") (width 0.12) (tstamp bf127188-ed7a-40d6-a4a2-44fb1ba00583))
+    (fp_arc (start 7.75 -3.35) (mid 9.583204 -2.102027) (end 10.29 0) (layer "F.SilkS") (width 0.12) (tstamp bf127188-ed7a-40d6-a4a2-44fb1ba00583))
     (fp_line (start 7.79 4) (end 7.79 -4) (layer "F.CrtYd") (width 0.05) (tstamp 3d77cfaf-3fba-4cac-b1af-c298aa76d687))
     (fp_line (start 10.417 6.277) (end -5.331 6.277) (layer "F.CrtYd") (width 0.05) (tstamp 84223325-af8b-426c-904e-f0e2c34c9b14))
     (fp_line (start -2.71 -4) (end -2.71 4) (layer "F.CrtYd") (width 0.05) (tstamp 99fe284a-2347-4f65-9b28-8dce535bf35d))
@@ -6812,7 +6822,7 @@
     (fp_line (start -2.71 -4) (end 7.79 -4) (layer "F.CrtYd") (width 0.05) (tstamp c3bf23a5-9255-461e-8abf-06ed97624fbf))
     (fp_line (start -5.331 -0.073) (end -5.331 6.277) (layer "F.CrtYd") (width 0.05) (tstamp e9ae59b9-a3ea-4d92-b2f2-f21657bdf859))
     (fp_arc (start -5.331 -0.073) (mid -4.585428 -2.244777) (end -2.664 -3.502) (layer "F.CrtYd") (width 0.05) (tstamp 59eed571-ee20-4f23-a9d1-965ea8aa570c))
-    (fp_arc (start 7.75 -3.502) (mid 9.671432 -2.24478) (end 10.417 -0.073) (layer "F.CrtYd") (width 0.05) (tstamp f97af60a-890a-4dc4-a0b5-9055ca087d23))
+    (fp_arc (start 7.75 -3.502) (mid 9.671433 -2.244782) (end 10.417 -0.073) (layer "F.CrtYd") (width 0.05) (tstamp f97af60a-890a-4dc4-a0b5-9055ca087d23))
     (fp_line (start -2.46 -3.75) (end -2.46 3.75) (layer "F.Fab") (width 0.1) (tstamp 05451a9e-8c66-4f87-9793-9b6bc9d36c9e))
     (fp_line (start 7.54 -3.75) (end -2.46 -3.75) (layer "F.Fab") (width 0.1) (tstamp 22d68fd1-8413-49ea-8831-8778bbda87be))
     (fp_line (start -2.46 3.75) (end 7.54 3.75) (layer "F.Fab") (width 0.1) (tstamp 6aa97796-bd34-4cac-8846-5aa06551725c))
@@ -7577,6 +7587,11 @@
     (pad "2" thru_hole circle (at 0 4.5 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 "GND") (pinfunction "2") (pintype "passive") (tstamp 8f68dd01-e225-4f8e-853b-e7df9e3018bc))
     (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_TH_Tactile_Omron_B3F-10xx.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10315,6 +10330,16 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3314G_Vertical.wrl" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3314J_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (layer "F.Cu")
@@ -12354,10 +12379,25 @@
       (net 28 "unconnected-(A1-Pad31)") (pinfunction "SDA/A4") (pintype "bidirectional+no_connect") (tstamp 71267614-6d31-4bc9-b865-bbbd084a8ae8))
     (pad "32" thru_hole oval (at -9.14 -48.26 270) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
       (net 29 "unconnected-(A1-Pad32)") (pinfunction "SCL/A5") (pintype "bidirectional+no_connect") (tstamp b1859b89-3c60-4bc7-8aef-9a79605b11c3))
-    (model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/Arduino_UNO_R3.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.wrl"
+      (offset (xyz -8.89 -48.26 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 -90))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl"
+      (offset (xyz 35.56 -48.26 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 180 -90))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl"
+      (offset (xyz 17.78 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 180 -90))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+      (offset (xyz 35.76 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 180 -90))
     )
   )
 
