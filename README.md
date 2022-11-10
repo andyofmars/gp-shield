@@ -1,6 +1,6 @@
 # gp-shield - A general purpose arduino-compatible shield for UTAS projects
 
-![gp-shield PCB render](Doc/PCB.png)
+![gp-shield PCB render](Doc/PCB_f.png) ![gp-shield PCB render](Doc/PCB_b.png)
 
 ## Overview
 The shield is intended to be used as a general purpose shield for Arduino Uno compatible microcontroller development boards or as an interface between a development board and other custom electronics.

@@ -434,9 +434,6 @@
     (path "/04ed0af3-f777-44ba-9dbd-897161fc6c6a/3278b56c-fdc2-426a-b611-87a038913595"
       (reference "#PWR095") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/04ed0af3-f777-44ba-9dbd-897161fc6c6a/0a956bd1-6ccf-4020-b912-d98f9a3ee2d3"
-      (reference "#PWR096") (unit 1) (value "+5V_GPIO_OUT") (footprint "")
-    )
     (path "/04ed0af3-f777-44ba-9dbd-897161fc6c6a/107c5003-7869-4cf5-bad5-55c90ff40b79"
       (reference "#PWR097") (unit 1) (value "GND") (footprint "")
     )
@@ -470,7 +467,7 @@
     (path "/04ed0af3-f777-44ba-9dbd-897161fc6c6a/e410de08-2d32-4dd7-b3df-24d72dc59f37"
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
-    (path "/04ed0af3-f777-44ba-9dbd-897161fc6c6a/421e19a4-ff91-4974-82f4-0b941951e252"
+    (path "/04ed0af3-f777-44ba-9dbd-897161fc6c6a/e86a74d5-7348-42d6-8c18-ec7d83a281fd"
       (reference "#PWR0110") (unit 1) (value "+5V_GPIO_OUT") (footprint "")
     )
     (path "/04ed0af3-f777-44ba-9dbd-897161fc6c6a/4c0fe935-4b39-4ca6-85be-c01983cf9285"
@@ -499,6 +496,9 @@
     )
     (path "/04ed0af3-f777-44ba-9dbd-897161fc6c6a/0e9b2e34-4380-466f-81a7-17ef226358ff"
       (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/04ed0af3-f777-44ba-9dbd-897161fc6c6a/a37ec83a-bbca-4944-868f-a3c7ad1cac5a"
+      (reference "#PWR0120") (unit 1) (value "+5V_GPIO_OUT") (footprint "")
     )
     (path "/04ed0af3-f777-44ba-9dbd-897161fc6c6a/6ea6e161-a4e6-4bbe-bd1e-24710a16dd70"
       (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
@@ -909,19 +909,19 @@
       (reference "Q3") (unit 1) (value "Q_NMOS_GDS") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/2817ff8a-34b8-4d93-9b8e-739b288318be"
-      (reference "R1") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R1") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/329bde09-cc95-4530-b0c5-3bc22359f4db"
-      (reference "R2") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R2") (unit 1) (value "5k6") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/5d93b71f-18f4-4cc8-84cb-74c2fd770293"
-      (reference "R3") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/b9442bc0-a52a-4f9a-8c63-bb23bd9eb6a4"
-      (reference "R4") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/0b4dab16-e267-46d3-acc9-9ad5da1a99d3"
-      (reference "R9") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R9") (unit 1) (value "40k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/3bb86e45-8808-4b66-8cf3-d7c0716827f6"
       (reference "R10") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -948,7 +948,7 @@
       (reference "R20") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/5ee9e003-dd93-4e32-8873-984943526142"
-      (reference "RV1") (unit 1) (value "R_Potentiometer") (footprint "Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical")
+      (reference "RV1") (unit 1) (value "10k") (footprint "Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/a8ed4727-5984-4349-8f60-1406dd1e15f1"
       (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Utility:OS102011MA1_SPDT_ESwitch")

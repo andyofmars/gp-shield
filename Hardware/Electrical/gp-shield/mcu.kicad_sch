@@ -2465,20 +2465,19 @@
     (uuid ffccab58-58a4-495b-bf8a-fb2fe4814043)
   )
 
-  (text "use pd2, pd4 or pd7\npd2 can be pwm (oc3b or oc4b) so use for led\nthen pd4 or pd7 for pb.\n"
-    (at 63.5 67.31 0)
+  (text "D2 is not OVP or OCP protected\nD2 = OC3B or OC4B\n" (at 92.71 62.23 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15a75d16-9f69-4bc6-83a6-03def00d650d)
   )
+  (text "OVP\n- Shottky or low series resistance clamping diodes\n- Clamp to [-Vf, 5V+Vf]\n- Diodes rated for max allowed current (30mA)\n\nOCP\n- With 220 Ohm series resistance @ 5V, max current is 23mA\n- Polyfuse trips at 30mA"
+    (at 176.53 153.67 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 360d20c9-2fbd-4401-987a-a366ac3ee8c0)
+  )
   (text "PCINT gruoups are 0-7, 8-14, 16-23\n\nPCINT0 and PCINT1 are used by moor sheld, so should leave general urpose pcint pins on pcint2\n\nrthat is pd[0..7]"
-    (at 135.89 58.42 0)
+    (at 198.12 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c3684049-130f-4ef5-b0c4-8ed70d2479fa)
-  )
-  (text "States:\n- Vbatt connected and USB connected.\n	- need reverse current protection on 5V reg, or some current limiting\n- Vbatt connected and no USB\n	- arduino 5V needs to be powered from shield\n- arduino vin connected and no Vbatt\n	- shield can be powered off arduino but shouldnt reverse current through regs.\n- \n- "
-    (at 212.09 34.29 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c5d100d9-8c13-47d6-ba81-29ae7b5aa191)
   )
   (text "Limit 20mA" (at 21.59 26.67 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2488,11 +2487,6 @@
     (at 118.11 228.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid eda83fe1-4ae1-431a-b270-997dad65ce46)
-  )
-  (text "Is protection needed on all digital pins as well?\nAnd do we need a ribbon style connector for port D and port B?"
-    (at 212.09 48.26 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ee48f21f-8341-4013-b9b5-edcb31f87628)
   )
 
   (label "ADC.AN4" (at 243.84 114.3 0)
