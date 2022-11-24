@@ -593,11 +593,8 @@
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/3fdde0e7-e5a7-4586-8570-92f54d2dc51c"
       (reference "D1") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/5e40f2f3-7d38-4ce9-b011-0d07d535cd5c"
-      (reference "D2") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/f5ea08a4-9b7a-4cc1-bdcf-0ed0968cae33"
-      (reference "D3") (unit 1) (value "25V?") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/7eb0b6e3-1755-4e89-b38e-73d954e55b2c"
+      (reference "D2") (unit 1) (value "D_TVS") (footprint "Diode_SMD:D_SMA")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/a50db8e5-ed97-420e-bb7f-22a7151a0da3"
       (reference "D4") (unit 1) (value "6V2") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -738,7 +735,7 @@
       (reference "D49") (unit 1) (value "D_Schottky_Small") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/d9d35535-712e-4463-9828-ded5ba179efc"
-      (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Littelfuse-LVR100")
+      (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Littelfuse_445_030_series_5x20mm")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/f5e150a2-c53b-4754-91e7-e45891fa271e"
       (reference "F3") (unit 1) (value "Polyfuse_Small") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -903,7 +900,7 @@
       (reference "NT10") (unit 1) (value "NetTie_2") (footprint "NetTie:NetTie-2_THT_Pad0.3mm")
     )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/15ca37ce-26d2-4417-a537-5bd9ed7b1617"
-      (reference "Q1") (unit 1) (value "Q_PMOS_GDS") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "Q_PMOS_GDS") (footprint "Package_TO_SOT_SMD:TO-252-3_TabPin2")
     )
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/c2b951b6-378e-40d8-9538-3993ca2ee080"
       (reference "Q3") (unit 1) (value "Q_NMOS_GDS") (footprint "Package_TO_SOT_SMD:SOT-23")
