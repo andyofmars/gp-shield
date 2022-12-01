@@ -2851,7 +2851,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 44.45 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 0ab76d73-1a37-48ac-a900-de948eb39b28)
     (property "Reference" "NT1" (id 0) (at 45.72 110.4899 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -2975,7 +2975,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 62.23 140.97 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 1633137b-4051-4afe-909a-d5cb3675e953)
     (property "Reference" "NT7" (id 0) (at 63.5 139.6999 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -3824,7 +3824,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 46.99 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6718a76f-80aa-45b5-b297-5d4271784fe0)
     (property "Reference" "NT3" (id 0) (at 48.26 110.4899 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -3980,7 +3980,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 49.53 83.82 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6e8fa20d-c11a-4dc4-b8b5-63354a40d749)
     (property "Reference" "NT4" (id 0) (at 50.8 82.5499 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -4153,7 +4153,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 46.99 83.82 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 82a005fd-4618-46e1-b14a-5c6240b3d4bc)
     (property "Reference" "NT2" (id 0) (at 48.26 82.5499 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -4226,7 +4226,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 59.69 140.97 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 84dea54e-30e1-4990-ad2b-18d182431e16)
     (property "Reference" "NT6" (id 0) (at 60.96 139.6999 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -4303,7 +4303,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 49.53 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 887e46e4-2506-4400-9bb1-44ffce490df0)
     (property "Reference" "NT5" (id 0) (at 50.8 110.4899 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -4829,7 +4829,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 64.77 140.97 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid cca17a2e-4b52-4854-ba92-c8e3724b9327)
     (property "Reference" "NT8" (id 0) (at 66.04 139.6999 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -5057,7 +5057,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 243.84 124.46 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e5b82bcc-9b3b-4dad-b5c3-9d2b2ecade7f)
     (property "Reference" "NT10" (id 0) (at 245.11 123.1899 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -5236,7 +5236,7 @@
   )
 
   (symbol (lib_id "Device:NetTie_2") (at 241.3 124.46 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid f4f58e85-1609-43a7-a416-62173b21ecfe)
     (property "Reference" "NT9" (id 0) (at 242.57 123.1899 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
