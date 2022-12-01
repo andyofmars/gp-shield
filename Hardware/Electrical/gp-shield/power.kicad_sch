@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "gp-shield Power Supply")
+    (date "2022-12-01")
+    (rev "1")
+    (company "University of Tasmania")
+  )
+
   (lib_symbols
     (symbol "Comparator:LM397" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 1.27 5.08 0)
@@ -1890,10 +1897,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0433f086-3f4e-4ab0-bffe-99d98355c1f2)
   )
-  (text "Is the 3.3V reg needed?" (at 229.87 140.97 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 17dbe7a9-bdd1-4f48-bbf7-77556552d284)
-  )
   (text "Dual footprint\nDIP switch\n2.54mm header." (at 149.86 74.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2a77fd34-31f3-444c-9f8e-8721dd4332d8)
@@ -1902,29 +1905,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 331a01dd-9783-4e1b-a621-a32bba35d9d8)
   )
-  (text "Should Vcc been connected to Vin?\nOr is it safer to only power through the 5V reg?\n- and through a diode."
-    (at 229.87 152.4 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 736bb22e-daee-4475-a07b-d4b6934eda48)
-  )
   (text "UVLO\nAdj. UVLO threshold\nw Hysteresis\nVlo = 6V-17V\nVtl = (R9/(R9+R4))*Vref = 2.44V\nVth = Vtl + (R4/(R9+R4))*Vcc = 2.44 + 0.024*Vcc\nPower switch"
     (at 95.25 83.82 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 7d36c6af-d1dc-4af2-a807-8dbfb6221bac)
   )
-  (text "May need reverse current protection on the\noutput of the 3.3V and 5V to prevent 5V supply on arduno causing damage\nif Vin or Vusb are connected without Vbatt."
-    (at 214.63 99.06 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 98e02d9c-0b94-4edc-b888-4b7bcbba51b1)
-  )
   (text "Vbatt(max) = 24V (up to 5S LiPO)\nIout(max) continuous = 10A"
     (at 60.96 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9c95d8e7-5720-4e14-ad93-ae09242beb58)
-  )
-  (text "Jumper for connection of 5V to arduino." (at 229.87 128.27 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a5c4a10c-ee01-46d3-b4a6-d1c1d2c23746)
   )
   (text "TVS Diode\nVc = 25V\nIpp ?\nPpp ?" (at 46.99 76.2 0)
     (effects (font (size 1 1)) (justify left bottom))

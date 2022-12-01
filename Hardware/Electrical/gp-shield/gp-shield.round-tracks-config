@@ -1,2 +1,5 @@
 Default	True	2.0	3
-False	True	False
+ANALOG	True	2.0	3
+GPIO	True	2.0	3
+PWR	True	2.0	3
+False	True

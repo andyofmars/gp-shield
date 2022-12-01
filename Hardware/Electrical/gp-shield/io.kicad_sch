@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "gp-shield IO")
+    (date "2022-12-01")
+    (rev "1")
+    (company "University of Tasmania")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x03" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.08 0)
@@ -2160,12 +2167,6 @@
   (bus (pts (xy 113.03 97.79) (xy 113.03 100.33))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fe652e20-a222-4565-b120-66daa778b513)
-  )
-
-  (text "Ideas for IO in addition to that shown on MCU sheet:\n- Servo style PWM headers for each of output compare pins\n- optional SPI header (4-pin?)\n\nSee the standard connection header for the Arduino for ideas"
-    (at 298.45 105.41 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 476a8387-bea1-4734-8299-023ddf679e65)
   )
 
   (label "ADC.AN5" (at 209.55 149.86 180)
