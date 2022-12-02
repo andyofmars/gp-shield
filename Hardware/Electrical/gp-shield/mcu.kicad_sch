@@ -2472,7 +2472,7 @@
     (uuid ffccab58-58a4-495b-bf8a-fb2fe4814043)
   )
 
-  (text "D2 is not OVP or OCP protected\nD2 = OC3B or OC4B\n" (at 92.71 62.23 0)
+  (text "LED_OUT = ~{PD_D2}" (at 96.52 59.69 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15a75d16-9f69-4bc6-83a6-03def00d650d)
   )
