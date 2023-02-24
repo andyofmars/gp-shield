@@ -963,6 +963,15 @@
     (path "/0d6e7d94-9779-4ff4-b7a4-a3ca08e2a9ec/9e0fa644-f7a9-4239-b7b6-8e0deac76962"
       (reference "SW3") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx")
     )
+    (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/77007528-7748-4597-8fb7-eb876370d458"
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+    )
+    (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/c9af014b-a0cb-4a2b-a361-3544c3b9e281"
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+    )
+    (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/c297970e-afff-4e29-9e91-25c32212e3ca"
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+    )
     (path "/74fdf5c2-3151-4dc3-ad40-7d970216f0b1/a82d309b-fc31-46c6-8037-991d6990c54b"
       (reference "U1") (unit 1) (value "NCP1117-5.0_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
